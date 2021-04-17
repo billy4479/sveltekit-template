@@ -1,0 +1,14 @@
+module.exports = {
+    purge: ['./src/**/*.svelte'],
+    darkMode: false, // or 'media' or 'class'
+    theme: {
+      extend: {},
+    },
+    variants: {
+      extend: {
+        borderWidth: ['hover', 'focus'],
+        backgroundColor: ['active'],
+      },
+    },
+    plugins: [],
+  };
